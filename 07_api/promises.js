@@ -15,7 +15,6 @@
 // }).then((data)=>{
 //     console.log(data)
 // })
-
 // =================Rejection ==========================
 
 // const promise4 = new Promise((resolve,reject)=>{
