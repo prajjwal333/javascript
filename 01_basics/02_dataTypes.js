@@ -2,7 +2,9 @@
 
 let name ="prajjwal" //String
 let age = 2 // Integer
-let isOld = false //Boolean
+let isOld = false //Booleane
+
+console.log(typeof(isOld))
 
 
 // null -> empty/standalone value  typeof null -> object

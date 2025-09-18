@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove List item from DOM</title>
+</head>
+<body style="background-color: black; color: white;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+function addLanguage(langName) {
+    const item = document.createElement("li")
+    item.innerHTML= langName
+    document.querySelector(".language").appendChild(item)
+
+}
+addLanguage('Java')
+</script>
+</html>
